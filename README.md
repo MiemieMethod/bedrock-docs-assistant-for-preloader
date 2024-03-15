@@ -10,4 +10,4 @@ Create the `plugins` folder at the BDS directory root, and copy the [bedrock-doc
 
 ## Run
 
-Run `bedrock_server_mod.exe` and BDS together with this plugin will run normally.
+Run `bedrock_server_mod.exe`, and BDS together with this plugin will run normally.
