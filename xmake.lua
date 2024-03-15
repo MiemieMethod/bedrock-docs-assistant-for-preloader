@@ -1,10 +1,10 @@
 add_repositories("liteldev-repo https://github.com/LiteLDev/xmake-repo.git")
 add_requires("preloader v1.3.0")
 
-target("plugin")
+target("bedrock-docs-assistant")
     add_files("src/**.cpp")
     set_symbols("debug")
-    add_includedirs("include")
+    add_includedirs("src")
     add_rules("mode.debug", "mode.release")
     set_arch("x64")
     set_kind("shared")
